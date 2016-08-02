@@ -1,3 +1,3 @@
 "scripts": {
-      "start": "node first_nodejs_express.js"
+      "start": "node server.js"
 }
