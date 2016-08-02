@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title #{title} - Templeton Tsai
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.css')
+    script(src="https://npmcdn.com/leaflet@1.0.0-rc.2/dist/leaflet.js")
+  body
+    header
+      h1 Templeton Tsai The Geek
+    .container
+      .main-content
+        block content
+      .sidebar
+        block sidebar
+    footer
+      p Running on node with Express, Jade and Stylus
