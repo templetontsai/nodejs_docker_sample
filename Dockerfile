@@ -13,5 +13,5 @@ COPY . /usr/src/app
 
 EXPOSE 3000
 
-#CMD [ "npm", "start" ]
-CMD [ "node", "first_nodejs_express.js" ]
+CMD [ "npm", "start" ]
+#CMD [ "node", "first_nodejs_express.js" ]

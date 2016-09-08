@@ -34,7 +34,14 @@ app.get('/sharesocialmedia', function(req, res) {
 	//res.render('tweet_share_button', { title: 'Test' });
 	//res.send('share socail media!');
 });
+app.get('/d3js-demo', function(req, res) {
+
+  //res.render('layout', { title: 'Test' });
+  res.render('d3js-demo', { title: 'D3js Demo' });
+  //res.render('tweet_share_button', { title: 'Test' });
+  //res.send('share socail media!');
+});
 
 app.listen(process.env.PORT || 3000, function() {
-	console.log('Example app listening on port' + process.env.PORT);
+	console.log('Example app listening on port 3000');
 });
